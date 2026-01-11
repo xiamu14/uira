@@ -13,3 +13,23 @@ function Demo() {
 }
 
 ```
+
+```ts
+// uira.config.ts
+import {createConfig} from '@uira/css'
+
+export default createConfig({})
+
+````
+
+@uira/css
+@uira/ui
+
+`bunx @uira/ui add button select`
+
+```ts
+import {Button} from '@src/component/uira/ui'
+import {cva} from '@uira/utility'
+
+...
+```
